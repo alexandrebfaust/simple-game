@@ -108,7 +108,7 @@ function moverpersonagem(direcao){
 		direcaopersonagem = 'esquerda';
 		if(acaopersonagem == 'idle'){
 			acaopersonagem = 'run';
-			$("#char").attr("src","src/PNG/run.gif");
+			$("#char").attr("src","src/run.gif");
 		}
 	}
 	if(direcao=='direita'){
@@ -116,13 +116,13 @@ function moverpersonagem(direcao){
 		direcaopersonagem = 'direita';
 		if(acaopersonagem == 'idle'){
 			acaopersonagem = 'run';
-			$("#char").attr("src","src/PNG/run.gif");
+			$("#char").attr("src","src/run.gif");
 		}
 	}
 }
 
 function personagematacar(){
-	$("#char").attr("src","src/PNG/grab.gif");
+	$("#char").attr("src","src/grab.gif");
 }
 
 
@@ -160,6 +160,6 @@ $("#btndireita").click(function() {
 $(document).keyup(function(e){
 	if(acaopersonagem == 'run'){
 		acaopersonagem = 'idle';
-		$("#char").attr("src","src/PNG/idle.gif");
+		$("#char").attr("src","src/idle.gif");
 	}
 });
