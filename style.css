@@ -1,0 +1,71 @@
+html{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	overflow: hidden;
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 15px;
+	font-weight: 800;
+}
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	overflow: hidden;
+	background-image: linear-gradient(to bottom right, #9600ff, #4900ff);
+}
+.map{
+	background-image: url('src/Background.png');
+	background-size: cover;
+	position: fixed;
+	background-position-x: 0px;
+	height: 100%;
+	width: 100%;
+	z-index: -99999 !important;
+}
+.platform{
+	background-image: url('src/Middleground.png');
+	background-size: cover;
+	position: fixed;
+	left: 0px;
+	background-position-x: 0px;
+	height: 100%;
+	width: 100%;
+	z-index: -99998 !important;
+}
+.text{
+	position: absolute;
+}
+.texts{
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+.character{
+	top: 75%;
+	position: absolute;
+	left: 100px;
+}
+.item, .keys, .keyg, .barrier{
+	position: absolute;
+}
+.items{
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 99999;
+}
+.hud{
+	position: fixed;
+	left: 10px;
+	font-size: 16px;
+	color: #f1f1f1;
+}
+.buttons{
+	z-index: 999999;
+	position: fixed !important;
+	bottom: 0px !important;
+	left: 40%;
+}

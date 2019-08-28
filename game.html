@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Aniah's Hero Adventures</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="js/jquery-3.4.1.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	</head>
+	<body>
+
+		<div class="hud">
+			<p>
+				<img src="src/coin.png"> <b id="coins">0</b><br>
+				<img src="src/keys.png"> <b id="keyss">0</b><br>
+				<img src="src/keyg.png"> <b id="keysg">0</b>
+			</p>
+		</div>
+
+		<div class="buttons">
+				<button id="btnesquerda" class="btn btn-info" style="font-size: 30px;"><</button>
+				<button id="btndireita" class="btn btn-info" style="font-size: 30px;">></button>
+		</div>
+
+		<div class="items">
+			<img class="item" src="src/coin.png" style="left: 300px; top: 85%;">
+			<img class="item" src="src/coin.png" style="left: 400px; top: 85%;">
+			<img class="item" src="src/coin.png" style="left: 500px; top: 85%;">
+			<img class="item" src="src/coin.png" style="left: 530px; top: 85%;">
+			<img class="keys" src="src/keys.png" style="left: 630px; top: 85%;">
+			<img class="item" src="src/coin.png" style="left: 680px; top: 85%;">
+			<img class="keyg" src="src/keyg.png" style="left: 1000px; top: 85%;">
+			<img class="item" src="src/coin.png" style="left: 1500px; top: 85%;">
+			<img class="barrier" src="src/Dude_Monster.png" style="left: 700px; top: 75%; height: 80px; transform: scaleX(-1);">
+			<img class="barrier" src="src/Owlet_Monster.png" style="left: 900px; top: 75%; height: 80px; transform: scaleX(-1);">
+			<img class="barrier" src="src/Pink_Monster.png" style="left: 1100px; top: 75%; height: 80px; transform: scaleX(-1);">
+		</div>
+
+		<div class="character">
+			<img src="src/idle.gif" id="char" height="80px">
+		</div>
+
+		<div class="texts">
+			<p class="text" id="textfloat" style="left: 100px; top: 100px; font-size: 5vh; color: #f3f3f3;">Aniah's Hero<br> Adventures<br><br>
+			<small style="font-size: 2.5vh;">Use as setas < e > para se mover.</small></p>
+			<p class="text" id="textfloat" style="left: -450px; top: 150px;">Opa, Campeão!<br>O caminho é para o outro lado! >></p>
+		</div>
+
+		<div class="platform"></div>
+
+		<div class="map"></div>
+		
+		<script src="functions.js"></script>
+	</body>
+</html>
